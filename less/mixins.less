@@ -1,1 +1,28 @@
-// Mixins Here
+//Spacing / Flex Box
+.center(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.responsive-spacing(@j, @a, @dir){
+    display: flex;
+    justify-content: @j;
+    align-items: @a;
+    flex-direction: @dir;
+}
+
+//Buttons
+.Button( @w, @h,  @tc, @bg,){
+    width: @w;
+    height: @h;
+    color: @tc;
+    background-color: @bg;    
+    font-size: 1.8rem;
+    border-radius: 5px;
+    .center();
+}
+.buttonHover(){
+    color: @river-bend;
+    background-color: @waterloo;
+    border: 1px solid @ebony-clay;    
+}
