@@ -197,8 +197,8 @@ p {
 @media (max-width: 500px) {
   .Nav-Bar .links {
     width: 100%;
-    position: fixed:
-            top:0;
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
