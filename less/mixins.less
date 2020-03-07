@@ -1,1 +1,12 @@
-// Mixins Here
+//Spacing / Flex Box
+.center(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.responsive-spacing(@j, @a, @dir){
+    display: flex;
+    justify-content: @j;
+    align-items: @a;
+    flex-direction: @dir;
+}
