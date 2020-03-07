@@ -181,15 +181,6 @@ p {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 500px) {
-  .Nav-Bar .links {
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-  }
-}
 .Nav-Bar .links nav {
   width: 100%;
   padding: 1%;
@@ -202,6 +193,20 @@ p {
   font-size: 1.6rem;
   text-decoration: none;
   color: #454A59;
+}
+@media (max-width: 500px) {
+  .Nav-Bar .links {
+    width: 100%;
+    position: fixed:
+            top:0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+  .Nav-Bar .links nav {
+    width: 80%;
+  }
 }
 footer {
   color: #22283B;

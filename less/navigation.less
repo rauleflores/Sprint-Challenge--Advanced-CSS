@@ -11,11 +11,7 @@
     }
     .links{
         width: 20%;
-        .center();
-        @media @phone {
-            width: 80%;
-            .responsive-spacing(space-around, center, row);
-        }
+        .center();        
         nav{
             width: 100%;
             padding: @standard-p;
@@ -24,6 +20,15 @@
                 font-size: 1.6rem;
                 text-decoration: none;
                 color: @river-bend;
+            }
+        }
+        @media @phone {
+            width: 100%;
+            position: fixed:
+            top:0;
+            .responsive-spacing(space-around, center, row);
+            nav{
+                width: 80%;
             }
         }
     }

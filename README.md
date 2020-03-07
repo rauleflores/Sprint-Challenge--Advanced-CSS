@@ -45,7 +45,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 
 4. How would you describe preprocessing to someone new to CSS?
-    Preprocessing is a way to 
+    Preprocessing is a way to make wrting CSS more streamlined. With variables and mixins a developer can write less code.
 
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
