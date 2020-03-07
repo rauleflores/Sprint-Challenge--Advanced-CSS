@@ -12,6 +12,10 @@
     .links{
         width: 20%;
         .center();
+        @media @phone {
+            width: 80%;
+            .responsive-spacing(space-around, center, row);
+        }
         nav{
             width: 100%;
             padding: @standard-p;
