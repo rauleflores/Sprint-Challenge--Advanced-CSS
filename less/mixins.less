@@ -10,3 +10,19 @@
     align-items: @a;
     flex-direction: @dir;
 }
+
+//Buttons
+.Button( @w, @h,  @tc, @bg,){
+    width: @w;
+    height: @h;
+    color: @tc;
+    background-color: @bg;    
+    font-size: 1.8rem;
+    border-radius: 5px;
+    .center();
+}
+.buttonHover(){
+    color: @river-bend;
+    background-color: @waterloo;
+    border: 1px solid @ebony-clay;    
+}
